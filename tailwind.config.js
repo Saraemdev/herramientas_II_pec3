@@ -1,6 +1,13 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'aquaman': {
+          light: '#afeeee',
+          dark: '#000080',
+        }
+      }
+    }
   },
   variants: {},
   plugins: []
