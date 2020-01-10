@@ -1,4 +1,11 @@
 /**
+ * Import Tailwind's base and component classes and any base  styles 
+ * or component classes registered by plugins
+ */
+ @tailwind base;
+ @tailwind components;
+
+/**
  * Import variables
  */
 
@@ -12,6 +19,7 @@
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";
+@import "@fortawesome/fontawesome-free/css/all.css";
 
 /**
  * Import layouts
@@ -19,6 +27,12 @@
  */
 
 @import "layouts/home";
+
+/**
+ * Import Tailwind's utility classes and any utility classes registered
+ * by plugins.
+ */
+ @tailwind utilities;
 
 /**
  * Do NOT include anything else in this file!

@@ -33,7 +33,11 @@
     "postcss-clean": "^1.1.0",
     "postcss-preset-env": "^6.7.0",
     "rimraf": "^2.7.1",
-    "sass": "^1.22.12"
+    "sass": "^1.22.12",
+    "stylelint": "^12.0.1",
+    "tailwindcss": "^1.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
+  }
 }
