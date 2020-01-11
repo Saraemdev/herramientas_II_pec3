@@ -4,20 +4,20 @@
      "stylelint-scss"
    ],
    "rules": {
+     "at-rule-no-unknown": [ true, {
+        "ignoreAtRules": [
+            "extends",
+            "apply",
+            "tailwind",
+            "components",
+            "utilities",
+            "screen"
+        ]
+    }],
      "selector-nested-pattern": "^&",
      "indentation": 2,
      "no-descending-specificity": null,
      "no-eol-whitespace": null,
      "declaration-empty-line-before": null
-     "at-rule-no-unknown": {
-      true,
-      "ignoreAtRules": [
-        "tailwind",
-        "apply",
-        "responsive",
-        "variants",
-        "screen"
-      ]
-    }
    }
 }

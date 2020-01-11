@@ -25,8 +25,8 @@
  * Import layouts
  * It's a best practice to use a partial for each page
  */
-
-@import "aquaman";
+@import "layout/home";
+@import "layout/aquaman";
 
 /**
  * Import Tailwind's utility classes and any utility classes registered
